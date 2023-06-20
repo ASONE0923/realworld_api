@@ -1,4 +1,5 @@
 # README
+# realworld_api
 - 以下に、Postmanの設定方法とリクエストの送信方法の詳細な手順を示します。
 
 1. 記事を取得するエンドポイント: GET /api/articles/:slug
@@ -45,4 +46,4 @@
    - リクエスト: DELETE http://localhost:3000/api/articles/how-to-train-your-dragon
    - 必要な場合は、ヘッダーに適切な認証情報を追加します。
    - レスポンス: 削除が成功した場合、ステータスコード204 No Contentが返されます。
-# realworld_api
+
