@@ -11,7 +11,12 @@
 # It's strongly recommended that you check this file into your version control system.
 
 ActiveRecord::Schema[7.0].define(version: 2023_06_18_053324) do
-  create_table "articles", force: :cascade do |t|
+  create_table "Apprentice", id: :integer, default: nil, charset: "utf8", force: :cascade do |t|
+    t.string "name", limit: 50
+    t.integer "age"
+  end
+
+  create_table "articles", charset: "utf8", force: :cascade do |t|
     t.string "slug"
     t.string "title"
     t.string "description"
